@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    username: sa
+    password:
+    url: jdbc:h2:mem:todos_db
+server:
+  port: 8081
+management:
+  security:
+    enabled: false
